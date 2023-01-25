@@ -15,6 +15,10 @@ main section {
 	background-color: #faa916;
 }
 
+a {
+	text-decoration: none;
+}
+
 body {
 	background-color: #fcfbfb;
 }
@@ -35,7 +39,7 @@ nav a:hover {
 }
 
 h4 {
-    color: #1f3847;
+	color: #1f3847;
 }
 
 #hero-img {
@@ -46,17 +50,25 @@ h4 {
 	color: #1f3847;
 }
 
-.book,
-.join {
+.book {
 	background-color: #a8dadc;
 	color: #1f3847;
 	text-decoration: none;
 }
 
-.book:hover,
-.join:hover {
+.book:hover {
 	background-color: #396e94;
 	color: #f1faee;
+}
+
+.join {
+	background-color: #457b9d;
+	color: #f1faee;
+	text-decoration: none;
+}
+
+.join:hover {
+	background-color: #1f3847;
 }
 
 .msg {
