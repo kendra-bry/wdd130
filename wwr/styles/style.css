@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #1f3847;
+	color: #000;
 	background-color: #faa916;
 }
 
@@ -265,6 +265,88 @@ footer .social img {
 	padding-top: 15px;
 }
 
+/* FAQ Page */
+
+.faq-title {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.faq-container {
+	max-width: 100%;
+	font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+	grid-column: 3/7;
+	grid-row: 1/15;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: left;
+	z-index: 1;
+	background-color: #ffffff;
+}
+
+.faq-container h2 {
+	font-size: 1.2em;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.faq-grid {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(15, 1fr);
+}
+
+#collapseFour p {
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+
+.gold {
+	grid-column: 1/9;
+	grid-row: 3/12;
+	background-color: #faa916;
+}
+
+.blue {
+	grid-column: 6/8;
+	grid-row: 5/14;
+	background-color: #a8dadc;
+}
+
+.dkBlue {
+	grid-column: 2/6;
+	grid-row: 8/16;
+	background-color: #457b9d;
+}
+
+.accordion-img > img {
+	max-width: 100%;
+	height: auto;
+	float: right;
+	padding: 5px 25px 25px;
+}
+
+#collapseThreeImg {
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 25px 25px;
+}
+
+.accordion-header button {
+	font-weight: 500 !important;
+	font-size: 1em;
+}
+
+#collapseOne .accordion-body img {
+	max-width: 100%;
+	height: auto;
+}
+
 @media screen and (max-width: 900px) {
 	#hero,
 	.home-grid {
@@ -320,5 +402,28 @@ footer .social img {
 
 	footer {
 		margin-top: 25px;
+	}
+
+	.accordion-img > img {
+		padding: 10px 0;
+	}
+
+	#collapseThreeImg {
+		display: block;
+	}
+
+	#collapseThreeImg img {
+		display: block;
+	}
+
+	.faq-container {
+		grid-column: 1/9;
+		margin: 0 10px;
+		padding: 20px;
+	}
+
+	.blue,
+	.dkBlue {
+		display: none;
 	}
 }
