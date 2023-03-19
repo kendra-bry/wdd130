@@ -47,7 +47,7 @@ h5,
 h6 {
 	font-family: var(--heading-font);
 	color: var(--headline-color-on-white);
-  letter-spacing: 1.5px;
+	letter-spacing: 1.5px;
 }
 h2 {
 	text-align: center;
@@ -111,20 +111,24 @@ nav {
 	text-align: center;
 	font-size: 1.2em;
 }
+
 nav {
 	list-style-type: none;
 	display: flex;
 }
+
 nav a {
 	padding: 1em;
 	min-width: 120px;
 	text-decoration: none;
 	padding: 10px;
 }
+
 nav a:link,
 nav a:visited {
 	color: var(--nav-link-color);
 }
+
 nav a:hover {
 	color: var(--nav-hover-link-color);
 	background-color: var(--nav-hover-background-color);
