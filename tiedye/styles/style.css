@@ -118,6 +118,7 @@ nav a:hover {
 
 .nav-logo {
 	margin: 0 20px;
+	display: flex;
 }
 
 .home-main {
