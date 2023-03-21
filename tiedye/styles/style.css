@@ -96,6 +96,8 @@ nav {
 	text-align: center;
 	font-size: 1.2em;
 	list-style-type: none;
+	font-family: var(--paragraph-font);
+	border-radius: 0 0 5px 5px;
 }
 
 nav a {
@@ -138,14 +140,6 @@ nav a:hover {
 	margin-top: 0;
 }
 
-.home-grid img {
-	max-width: 400px;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	border-radius: 5px;
-}
-
 .home-grid p {
 	line-height: 1.4em !important;
 	margin: 0px;
@@ -162,16 +156,18 @@ nav a:hover {
 }
 
 .home-actions a {
+	border: 2px solid var(--accent2-color);
+	border-radius: 15px 0 15px 0;
+	background-color: #fff;
 	padding: 20px;
 	width: 35%;
+	font-family: var(--paragraph-font);
+	font-size: 1.1em;
+	font-weight: 500;
+	color: var(--paragraph-color-on-white);
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.5em;
-	border: 2px solid var(--accent2-color);
-	border-radius: 15px;
-	background-color: #fff;
-	transition: all .2s ease-in-out;
-	color: var(--paragraph-color-on-white);
+	transition: all 0.2s ease-in-out;
 }
 
 .home-actions a:hover {
@@ -180,17 +176,23 @@ nav a:hover {
 	box-shadow: 5px 10px 18px #888888;
 }
 
-.home-actions a:visited{
+.home-actions a:visited {
 	color: var(--paragraph-color-on-white);
 }
 
+.page-name {
+	text-align: center;
+}
 
 footer {
+	font-family: var(--paragraph-font);
+	font-size: .8em;
+	color: var(--paragraph-color-on-color);
 	padding: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	color: var(--paragraph-color-on-color);
+	border-radius: 5px 5px 0 0;
 }
 
 .contact a {
