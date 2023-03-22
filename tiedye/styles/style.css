@@ -350,6 +350,76 @@ footer .info a {
 	color: var(--paragraph-color-on-color) !important;
 }
 
+/* MATERIALS PAGE */
+.subpage-main {
+	margin: 45px auto;
+}
+
+.materials {
+	display: flex;
+	/* border: 1px red solid; */
+}
+
+.materials-slideshow {
+	/* border: 1px green solid; */
+	display: flex;
+	flex-direction: column;
+	max-width: 450px;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.list {
+	padding: 20px;
+	font-family: var(--paragraph-font);
+	color: var(--paragraph-color-on-white);
+	line-height: 1.4em;
+	/* border: 1px solid blue; */
+}
+
+.list h5 {
+	margin-bottom: 5px;
+}
+
+.list ul {
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.bullet {
+	color: var(--accent2-color);
+}
+
+.materials-img {
+	margin: auto;
+}
+
+/* UTILITIES */
+.move-right {
+	margin-left: auto;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.divider {
+	border-bottom: 2px solid rgb(224, 224, 224);
+	margin: 35px 0;
+}
+
 @media (max-width: 1200px) {
 	nav .container,
 	footer .container,

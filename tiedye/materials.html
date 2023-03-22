@@ -5,127 +5,203 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/slideshow.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
     <title>Materials</title>
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div>
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Logo" width="100">
-                </a>
+    <div class="page-container">
+
+        <header>
+            <nav>
+                <div class="container">
+                    <span class="nav-logo">
+                        <img src="images/logo2.png" alt="Logo" width="50">
+                    </span>
+                    <a href="index.html">Home</a>
+                    <a href="materials.html">Materials</a>
+                    <a href="techniques.html">Techniques</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="page-main subpage-main">
+            <h1 class="page-name">Materials</h1>
+
+            <p>If you're new to tie-dyeing, you might be surprised at how many different materials are required to create your own unique designs. To get started, you'll need a few key materials, including dye, fabric, rubber bands, and a large container for mixing and soaking the fabric. Depending on the specific technique you're using, you may also need additional tools like squeeze bottles or an artificial sinew puller. You'll also need a large container for mixing the dye and soaking the fabric, as well as access to water for rinsing and washing the fabric.
+            </p>
+
+            <p>
+                As you become more experienced with tie-dyeing, you may find yourself experimenting with different materials and techniques to achieve different effects. So don't be afraid to get creative and try out different approaches – the possibilities are endless!
+            </p>
+
+            <p>
+                Below you can find an in-depth list of the materials you may need in during your tie-dyeing journey. Keep in mind, depending on the project and the method of tying and dying you choose to do, you don't need every item on this list to get started.
+            </p>
+
+            <div class="materials">
+                <div class="list w-60">
+                    <h5>Chemical Materials</h5>
+                    <ul>
+                        <li><span class="bullet">&#x25cf;</span> Calsolene Oil</li>
+                        <li><span class="bullet">&#x25cf;</span> Chlorine Bleach</li>
+                        <li><span class="bullet">&#x25cf;</span> Out White Bright</li>
+                        <li><span class="bullet">&#x25cf;</span> Soda Ash</li>
+                        <li><span class="bullet">&#x25cf;</span> Sodium Alginate</li>
+                        <li><span class="bullet">&#x25cf;</span> Urea</li>
+                        <li><span class="bullet">&#x25cf;</span> Hydrogen Peroxide</li>
+                    </ul>
+
+                    <h5>Dying Materials</h5>
+                    <ul>
+                        <li><span class="bullet">&#x25cf;</span> Dust mask</li>
+                        <li><span class="bullet">&#x25cf;</span> Fiber Reactive Procion Dyes</li>
+                        <li><span class="bullet">&#x25cf;</span> Gloves</li>
+                        <li><span class="bullet">&#x25cf;</span> Ice</li>
+                        <li><span class="bullet">&#x25cf;</span> Measuring cups</li>
+                        <li><span class="bullet">&#x25cf;</span> Measuring spoons</li>
+                        <li><span class="bullet">&#x25cf;</span> Needle tipped bottles</li>
+                        <li><span class="bullet">&#x25cf;</span> Squeeze bottles</li>
+                    </ul>
+                </div>
+
+                <!-- Slideshow container -->
+                <div class="materials-slideshow">
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="images/cal.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Calsolene Oil</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="images/bleach.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Bleach</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="images/owb.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Out White Bright</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 7</div>
+                            <img src="images/soda.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Soda Ash</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 7</div>
+                            <img src="images/sodium.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Sodium Alginate</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 7</div>
+                            <img src="images/urea.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Urea</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">7 / 7</div>
+                            <img src="images/hydrogen.jpg" style="width:100%" width="400" height="400">
+                            <div class="text">Hydrogen Peroxide</div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                </div>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="materials.html">Materials</a>
-                    </li>
-                    <li>
-                        <a href="techniques.html">Techniques</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <h1>Materials</h1>
+            <div class="divider"></div>
 
-        <p>If you're new to tie-dyeing, you might be surprised at how many different materials are required to create your own unique designs. To get started, you'll need a few key materials, including dye, fabric, rubber bands, and a large container for mixing and soaking the fabric. Depending on the specific technique you're using, you may also need additional tools like squeeze bottles or an artificial sinew puller. You'll also need a large container for mixing the dye and soaking the fabric, as well as access to water for rinsing and washing the fabric. As you become more experienced with tie-dyeing, you may find yourself experimenting with different materials and techniques to achieve different effects. So don't be afraid to get creative and try out different approaches – the possibilities are endless!</p>
+            <div class="materials">
+                <div class="materials-img">
+                    <img src="images/shibori3.jpg" alt="Shibori" width="300">
+                </div>
 
-        <p>
-            Below you can find an in-depth list of the materials you may need in during your tie-dyeing journey. Keep in mind, depending on the project and the method of tying and dying you choose to do, you don't need every item on this list to get started.
-        </p>
+                <div class="list w-40">
+                    <h5>Fabric Materials</h5>
+                    <ul>
+                        <li><span class="bullet">&#x25cf;</span> Blank shirts of natural materials</li>
+                        <li><span class="bullet">&#x25cf;</span> Blue Dawn</li>
+                        <li><span class="bullet">&#x25cf;</span> Textile Detergent</li>
+                    </ul>
 
-        <div>
-            <h5>Chemical Materials</h5>
-            <ul>
-                <li>Casolene Oil</li>
-                <li>Chlorine Bleach</li>
-                <li>Out White Bright</li>
-                <li>Soda Ash</li>
-                <li>Sodium Alginate</li>
-                <li>Urea</li>
-                <li>Hydrogen Peroxide</li>
-            </ul>
+                    <h5>Tying materials</h5>
+                    <ul>
+                        <li><span class="bullet">&#x25cf;</span> Artificial Sinew</li>
+                        <li><span class="bullet">&#x25cf;</span> Clips</li>
+                        <li><span class="bullet">&#x25cf;</span> Fishing line</li>
+                        <li><span class="bullet">&#x25cf;</span> Hemostats</li>
+                        <li><span class="bullet">&#x25cf;</span> Kite string</li>
+                        <li><span class="bullet">&#x25cf;</span> Rubber bands</li>
+                        <li><span class="bullet">&#x25cf;</span> Sinew puller</li>
+                    </ul>
 
-            <h5>Dying Materials</h5>
-            <ul>
-                <li>Dust mask</li>
-                <li>Fiber Reactive Procion Dyes</li>
-                <li>Gloves</li>
-                <li>Ice</li>
-                <li>Measuring cups</li>
-                <li>Measuring spoons</li>
-                <li>Needle tipped bottles</li>
-                <li>Squeeze bottles</li>
-            </ul>
-
-            <div>
-                <img src="images/shibori2.jpg" alt="Shibori" width="300">
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <img src="images/shibori3.jpg" alt="Shibori" width="300">
+                    <h5>Miscellaneous</h5>
+                    <ul>
+                        <li><span class="bullet">&#x25cf;</span> Chalk</li>
+                        <li><span class="bullet">&#x25cf;</span> Garden Sprayer</li>
+                        <li><span class="bullet">&#x25cf;</span> Gutter</li>
+                        <li><span class="bullet">&#x25cf;</span> Immersion Blender</li>
+                        <li><span class="bullet">&#x25cf;</span> Mesh Basket</li>
+                        <li><span class="bullet">&#x25cf;</span> Plastic tubs</li>
+                        <li><span class="bullet">&#x25cf;</span> Protractor</li>
+                        <li><span class="bullet">&#x25cf;</span> Rags</li>
+                        <li><span class="bullet">&#x25cf;</span> Ruler</li>
+                        <li><span class="bullet">&#x25cf;</span> Spray Bottle</li>
+                        <li><span class="bullet">&#x25cf;</span> Washable markers</li>
+                    </ul>
+                </div>
             </div>
 
-            <h5>Fabric Materials</h5>
-            <ul>
-                <li>Blank shirts of natural materials</li>
-                <li>Blue Dawn</li>
-                <li>Textile Detergent</li>
-            </ul>
+        </main>
 
-            <h5>Tying materials</h5>
-            <ul>
-                <li>Artificial Sinew</li>
-                <li>Clips</li>
-                <li>Fishing line</li>
-                <li>Hemostats</li>
-                <li>Kite string</li>
-                <li>Rubber bands</li>
-                <li>Sinew puller</li>
-            </ul>
+        <footer class="primary">
+            <div class="container">
+                <div class="info">
+                    <div class="contact">
+                        Kendra Bryant
+                        <a href="mailto:brighteyedyes@gmail.com">Email</a>
+                    </div>
+                    <a href="site-plan.html">Site Plan</a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/brighteyedyes/" target="_blank">
+                        <img src="images/instagram.png" alt="Instagram Logo" width="35">
+                    </a>
+                </div>
+            </div>
+        </footer>
 
-            <h5>Miscellaneous</h5>
-            <ul>
-                <li>Chalk</li>
-                <li>Garden Sprayer</li>
-                <li>Gutter</li>
-                <li>Immersion Blender</li>
-                <li>Mesh Basket</li>
-                <li>Plastic tubs</li>
-                <li>Protractor</li>
-                <li>Rags</li>
-                <li>Ruler</li>
-                <li>Spray Bottle</li>
-                <li>Washable markers</li>
-            </ul>
-        </div>
+    </div>
 
-    </main>
-
-    <footer>
-        <div>Kendra Bryant</div>
-        <div>
-            <a href="mailto:brighteyedyes@gmail.com">Email</a>
-        </div>
-        <div>
-            <a href="site-plan.html">Site Plan</a>
-        </div>
-        <div>
-            <a href="https://www.instagram.com/brighteyedyes/" target="_blank">
-                <img src="images/instagram.png" alt="Instagram Logo" width="30">
-            </a>
-        </div>
-    </footer>
+    <script src="scripts/slideshow.js"></script>
 
 </body>
 
