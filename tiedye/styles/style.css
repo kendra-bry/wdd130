@@ -357,11 +357,9 @@ footer .info a {
 
 .materials {
 	display: flex;
-	/* border: 1px red solid; */
 }
 
 .materials-slideshow {
-	/* border: 1px green solid; */
 	display: flex;
 	flex-direction: column;
 	max-width: 450px;
@@ -374,7 +372,6 @@ footer .info a {
 	font-family: var(--paragraph-font);
 	color: var(--paragraph-color-on-white);
 	line-height: 1.4em;
-	/* border: 1px solid blue; */
 }
 
 .list h5 {
@@ -392,6 +389,29 @@ footer .info a {
 
 .materials-img {
 	margin: auto;
+}
+
+.techniques h4 {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.technique {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.technique img {
+	max-height: 500px;
+}
+
+.technique-slideshow {
+	margin: auto;
+}
+
+.video {
+	width: 350px;
+	height: 350px;
 }
 
 /* UTILITIES */
@@ -413,6 +433,26 @@ footer .info a {
 
 .w-60 {
 	width: 60%;
+}
+
+.pt-0 {
+	padding-top: 0;
+}
+
+.pt-5 {
+	padding-top: 5px;
+}
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.pl-20 {
+	padding-left: 20px;
 }
 
 .divider {
@@ -447,6 +487,10 @@ footer .info a {
 		width: auto;
 	}
 
+	.technique .info,
+	.technique img,
+	.technique,
+	.materials,
 	.home-grid {
 		display: block;
 	}
@@ -471,9 +515,6 @@ footer .info a {
 		margin-left: 0;
 	}
 
-	.materials {
-		display: block;
-	}
 	.materials-img {
 		max-width: 300px;
 	}
@@ -482,9 +523,14 @@ footer .info a {
 		width: 350px;
 	}
 
+	.technique img,
 	.materials-img,
 	.materials-slideshow,
 	.list {
 		margin: 0 auto;
+	}
+
+	.technique .info {
+		width: 100%;
 	}
 }
