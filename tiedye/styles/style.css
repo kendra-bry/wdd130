@@ -23,6 +23,10 @@
 	--nav-hover-background-color: #57269c;
 }
 
+* {
+	font-weight: 600;
+}
+
 /* Reset */
 html,
 body,
@@ -292,7 +296,6 @@ p {
 	width: 35%;
 	font-family: var(--paragraph-font);
 	font-size: 1.1em;
-	font-weight: 500;
 	color: var(--paragraph-color-on-white);
 	text-align: center;
 	text-decoration: none;
